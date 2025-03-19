@@ -2,8 +2,7 @@
 #include "circle.h"
 #include "square.h"
 #include <iostream>
-#include <string>
-
+#include "shape.h"
 using namespace std;
 void printShape(Shape *shape);
 void printHeading();
