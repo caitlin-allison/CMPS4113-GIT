@@ -8,11 +8,10 @@ using namespace std;
 
 int main()
 {
-
-    Shape *shape = new Square(5.0);
+    Shape *shape = new Square(10.0);
     cout << "Area: " << shape->getArea() << endl;
-    cout << "Hello World" << endl;
-    cout << "I am the main branch" << endl;
+    cout << "Hello from Branch newClasses" << endl;
+    cout << "I am the experimental branch" << endl;
 
     return 0;
 }
